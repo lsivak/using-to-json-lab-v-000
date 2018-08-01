@@ -816,3 +816,12 @@ SyntaxError (/home/lsivak/using-to-json-lab-v-000/app/controllers/products_contr
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+
+
+Started GET "/products" for 74.108.39.105 at 2018-08-01 18:20:42 +0000
+Cannot render console from 74.108.39.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/lsivak/using-to-json-lab-v-000/app/controllers/products_controller.rb:39: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  app/controllers/products_controller.rb:39: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+
+
