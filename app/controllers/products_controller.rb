@@ -35,7 +35,7 @@ end
   def data
     product = Product.find(params[:id])
     #render json: PostSerializer.serialize(post)
-    render json: product.to_json(only: [:name, :description, :id, :inventory, :price]
+    render json: @product.to_json(only: [:name, :description, :id, :inventory, :price]
   )
   end
 
